@@ -1,0 +1,95 @@
+auto_save: true
+store_data: false
+keep_prev: false
+keep_prev_scale: false
+logger_level: info
+file_search: null
+
+# main
+file_dock:
+  show: true
+  closable: true
+  movable: true
+  floatable: true
+right_hand_pose_dock:
+  show: true
+  closable: true
+  movable: true
+  floatable: true  
+right_hand_beta_dock:
+  show: false
+  closable: true
+  movable: true
+  floatable: true 
+left_hand_pose_dock:
+  show: true
+  closable: true
+  movable: true
+  floatable: true  
+left_hand_beta_dock:
+  show: false
+  closable: true
+  movable: true
+  floatable: true
+global_hand_dock:
+  show: true
+  closable: true
+  movable: true
+  floatable: true
+global_view_dock:
+  show: true
+  closable: true
+  movable: true
+  floatable: true 
+right_hand_kp_dock:
+  show: false
+  closable: true
+  movable: true
+  floatable: true
+left_hand_kp_dock:
+  show: false
+  closable: true
+  movable: true
+  floatable: true
+  
+# label_dialog
+show_label_text_field: true
+label_completion: startswith
+fit_to_content:
+  column: true
+  row: false
+
+# canvas
+epsilon: 10.0
+canvas:
+  # None: do nothing
+  # close: close polygon
+  double_click: close
+  # The max number of edits we can undo
+  num_backups: 10
+
+shortcuts:
+  close: Ctrl+W
+  open: Ctrl+O
+  open_dir: Ctrl+U
+  quit: Ctrl+Q
+  save: Ctrl+S
+  save_as: Ctrl+Shift+S
+  save_to: null
+  delete_file: Ctrl+Delete
+  copy_label: Ctrl+C
+  paste_label: Ctrl+V
+  copy_path: Alt+C
+  crop: Shift+X
+  undo: Ctrl+Z
+  open_next: [D, Ctrl+Shift+D]
+  open_prev: [A, Ctrl+Shift+A]
+  only_label_exist: Ctrl+E
+
+  zoom_in: [Ctrl++, Ctrl+=]
+  zoom_out: Ctrl+-
+  zoom_to_original: Ctrl+0
+  fit_window: Ctrl+F
+  fit_width: Ctrl+Shift+F
+  toggle_keep_prev_mode: Ctrl+P
+
