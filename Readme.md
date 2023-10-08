@@ -1,7 +1,7 @@
 # The Art of DPM
 
-This is an label tool of 3d hand poses， which only need one image.
+This is a label tool of 3d hand poses, which need only one 2d image.
 
-![gui screenshot](doc/preview.png)
+![gui screenshot](/LabelHand/doc/preview.png?raw=true)
 
 
